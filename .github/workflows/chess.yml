@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: marcizhu/readme-chess@v1
+      - uses: marcizhu/readme-chess@master
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
